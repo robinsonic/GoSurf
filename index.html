@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Surfing</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Rochester' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<script type="text/javascript">
+var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+context.strokeStyle = '#000000';
+context.strokeRect(400,30,100,50);
+
+var myVideo=document.getElementById("video1"); 
+
+function playPause()
+{ 
+if (myVideo.paused) 
+  myVideo.play(); 
+else 
+  myVideo.pause(); 
+} 
+</script>
+<div class="header-bg">
+	<div class="wrap">
+		<div class="header">
+			<div class="logo">
+				<h1><a href="index.html">
+                                    <img src="images/LOGO.gif" width="250" height="300">GoSurf!
+				    </img> 
+                                    </a></h1>
+			</div>
+		</div>
+		<div class="header-bot">
+	   		<div class="menu">
+		   		<ul>
+					<li class="home"><a href="#">Home</a></li>
+					<li class=""><a href="#">Tours</a></li>
+					<li class=""><a href="#">Blog</a></li>
+					<li class=""><a href="#">Services</a></li>
+					<li class=""><a href="#">Contact</a></li>
+				</ul>
+				<div class="clear"></div>
+	   		</div>
+	   	</div>
+	</div>
+
+<!-----------------------------------------SLIDER------------------->
+
+ 
+<div id="slider"> 
+        <input type="radio" id="control1" name="controls" checked="checked"/>
+        <label for="control1"></label>
+        <input type="radio" id="control2" name="controls"/>
+        <label for="control2"></label>
+        <input type="radio" id="control3" name="controls"/>
+        <label for="control3"></label>
+        <input type="radio" id="control4" name="controls"/>
+        <label for="control4"></label>
+        <div id="sliderinner">
+            <ul>
+                <li>
+
+<div id="wrapper"> 
+
+				<!-------PLACES 1----------------->
+
+    <div class="description-text" id="itemOne" class="content" >
+	<img id="places" src="imgs/surf1.jpg" height= "550" width= "550"/>
+    </div>
+
+
+
+			</li><!-------PLACES 2-----------------><li>
+
+    <div class="description-text" id="itemTwo" class="content">
+    <img id="places" src="imgs/surf2.jpg" height= "550" width= "550"/>
+    </div>
+
+			</li><!-------PLACES 3-----------------><li>
+    <div class="description-text" id="itemThree" class="content">
+    <img id="places" src="imgs/surf3.jpg" height= "550" width= "550"/>
+    </div>
+
+			</li><!-------PLACES 4-----------------><li>
+    <div class="description-text" id="itemFour" class="content">
+    <img id="places" src="imgs/surf4.jpg" height= "550" width= "550"/>
+    </div>
+
+
+</div>					</li>
+
+
+
+
+<!------------------------SLIDER ENDS HERE!----------------------------------->
+
+
+<video id="video1" controls width="420" onclick="this.play()" >
+    <source id="vid"  src="media/big_buck_bunny.mp4" type="video/mp4">
+    <source id="vid"  src="media/big_buck_bunny.ogg" type="video/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+  
+<div class="content-bot">
+	<div class="inner-top">
+				<div class="content span_1_of_2">				
+					<div class="grid images_3_of_2">
+						<img src="imgs/welcome.jpg">
+					</div>
+				<div class="desc span_3_of_2">
+					<h3>Welcome</br><span class="resort">Our Travel Resorts</span></h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptat.</p>
+					
+					
+					<a href="#" class="button-1 top">&gt; read more</a>
+				</div>
+			</div>			
+				<div class="rightsidebar span_3_of_1">
+					<h3>Testimonials</h3>
+					<div class="comment">
+						<p class="upper clr-1">Lorem ipsum dolor sit amet, consectetur dipiscing elit. Vivamus sed arcu dui, eu tincidunt sem. Vivamus hendrerit mauris ut dui gravida ut Lorem ipsum dolor sit ame.</p>
+					</div>
+					<div class="name">
+						<span class="user">Mr. Lorem ipsum</span> -
+						<span class="info">Guide</span>
+					</div>
+				</div>
+ 				<div class="clear"></div>
+		</div>
+	</div>
+<footer>
+	<div class="content-bot">
+	  <div class="section group">
+			<div class="row row-8">
+				<div class="col_1_of_4 span_1_of_f">
+					<ul>
+					<li><a href="#">Our blog</a></li>
+					<li><a href="#">About our company</a></li>
+					<li><a href="#">Newsletter</a></li>
+					</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_f">
+					<ul>
+					<li><a href="#">New resources</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Ask an expert</a></li>
+					</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_f">
+					<ul>
+					<li><a href="#">Privacy policy</a></li>
+					<li><a href="#">Terms &amp; conditions</a></li>
+					<li><a href="#">Case studies</a></li>
+					</ul>
+				</div>
+				<div class="col_1_of_4 span_1_of_f">
+					<dl class="address">
+					<dt>Lorem ipsum dolor sit,<br></dt>
+					<dd><span>Telephone:</span>+34***********</dd>
+					<dd class="mail">E-mail: <strong><a href="#">support(at)gosurf.com</a></strong></dd>
+					</dl>
+				</div>
+				<div class="clear"></div>
+		</div>
+	</div>
+</div>
+</footer>
+ <div class="footer-bottom">
+	<div class="wrap">
+		<div class="copy">
+			<p>All rights Reserved | Design by <a href="#">GoSurf! 2015</a></p>
+		</div>
+ 	</div>
+ 	</div>
+ 	</div>	
+</div>
+</body>
+</html>
+
+    	
+    	
+            
